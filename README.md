@@ -15,16 +15,16 @@ O objetivo é criar uma página moderna e limpa, transmitindo confiança e profi
 - **Contato**: Formulário para o visitante enviar mensagem.
 
 ## Estrutura de Pastas
-/ProjetoSorrisoPerfeito
-├── index.html
-├── styles/
-│   └── style.css
-├── scripts/
-│   └── script.js
-├── assets/
-│   ├── img/  # Banner, logotipo e galeria
-│   └── fonts/
-└── README.md
+##/ProjetoSorrisoPerfeito
+##├── index.html
+##├── styles/
+##│   └── style.css
+##├── scripts/
+##│   └── script.js
+##├── assets/
+##│   ├── img/  # Banner, logotipo e galeria
+##│   └── fonts/
+##└── README.md
 
 ## Tecnologias Utilizadas
 - HTML5
