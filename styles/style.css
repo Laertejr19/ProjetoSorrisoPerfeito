@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.topo {
+  background: #A9D6E5;
+  padding: 20px 0;
+}
+
+.topo-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 60px;
+  width: auto;
+}
+
+.menu-principal a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #00796b;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.menu-principal a:hover {
+  color: #004d40;
+}
+
+.secao {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #90BE6D;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.cta:hover {
+  background: #6aa84f;
+}
+
+.grid-servicos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.servico {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.servico:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.fotos {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.fotos img {
+  width: 150px;
+  border-radius: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.fotos img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.secao-depoimentos blockquote {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 15px auto;
+  max-width: 500px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  font-style: italic;
+}
+
+.secao-contato form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.secao-contato input,
+.secao-contato textarea,
+.secao-contato button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.secao-contato textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.secao-contato button {
+  background: #00796b;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.secao-contato button:hover {
+  background: #004d40;
+}
+
+.rodape {
+  background: #b2dfdb;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 14px;
+  color: #004d40;
+}
+
+@media (max-width: 700px) {
+  .grid-servicos {
+    grid-template-columns: 1fr;
+  }
+
+  .fotos img {
+    width: 120px;
+  }
+
+  .topo-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

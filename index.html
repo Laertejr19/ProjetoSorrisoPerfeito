@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clínica Sorriso Feliz</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+  <header class="topo">
+    <div class="container topo-container">
+      <a href="#inicio">
+        <img src="assets/sorriso_logo.png" alt="Logo Clínica Sorriso Feliz" class="logo">
+      </a>
+      <h1>Clínica Sorriso Feliz</h1>
+      <nav class="menu-principal">
+        <a href="#inicio">Início</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  
+  <main>
+    
+    <section id="inicio" class="secao secao-inicio">
+      <div class="container">
+        <h2>Seu sorriso merece cuidado</h2>
+        <p>Atendemos cada paciente com atenção e carinho, garantindo uma experiência confortável e segura.</p>
+        <a href="#contato" class="cta">Agende sua avaliação</a>
+      </div>
+    </section>
+
+    
+    <section id="servicos" class="secao secao-servicos">
+      <div class="container">
+        <h2>Nossos Serviços</h2>
+        <div class="grid-servicos">
+          <div class="servico">
+            <h3>Limpeza e Profilaxia</h3>
+            <p>Remoção de tártaro e prevenção de cáries.</p>
+          </div>
+          <div class="servico">
+            <h3>Clareamento Dental</h3>
+            <p>Opções seguras e supervisionadas para seu sorriso brilhar.</p>
+          </div>
+          <div class="servico">
+            <h3>Implantes e Próteses</h3>
+            <p>Recupere dentes perdidos com segurança e conforto.</p>
+          </div>
+          <div class="servico">
+            <h3>Ortodontia</h3>
+            <p>Aparelhos para crianças e adultos com opções discretas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="galeria" class="secao secao-galeria">
+      <div class="container">
+        <h2>Galeria de Sorrisos</h2>
+        <div class="fotos">
+          <img src="assets/sorrir1.PNG" alt="Sorrir 1">
+          <img src="assets/sorrir2.PNG" alt="Sorrir 2">
+          <img src="assets/sorrir3.PNG" alt="Sorrir 3">
+          <img src="assets/sorrir4.PNG" alt="Sorrir 4">
+        </div>
+      </div>
+    </section>
+
+
+    <section id="depoimentos" class="secao secao-depoimentos">
+      <div class="container">
+        <h2>O que falam sobre nós</h2>
+        <blockquote>"Equipe excelente e atendimento muito acolhedor." – Mariana</blockquote>
+        <blockquote>"Recomendo para toda a família!" – João</blockquote>
+        <blockquote>"Atendimento humanizado e profissional." – Lucas</blockquote>
+      </div>
+    </section>
+
+    
+    <section id="contato" class="secao secao-contato">
+      <div class="container">
+        <h2>Entre em contato</h2>
+        <form id="formContato">
+          <input type="text" id="nome" placeholder="Nome completo" required>
+          <input type="email" id="email" placeholder="E-mail" required>
+          <textarea id="mensagem" placeholder="Escreva sua mensagem" required></textarea>
+          <button type="submit">Enviar mensagem</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  
+  <footer class="rodape">
+    <p>&copy; <span id="anoAtual"></span> Clínica Sorriso Feliz | Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
